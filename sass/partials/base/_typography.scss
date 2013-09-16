@@ -21,6 +21,14 @@ a {
   background-color: $highlight;
   text-decoration: none;
   &:hover {
-    background-color: lighten($highlight, 20%);
+    background-color: lighten($highlight, 25%);
+  }
+  &:active {
+    position: relative;
+    color: $text;
+    top: 1px;
+  }
+  &:visited {
+    color: $text;
   }
 }

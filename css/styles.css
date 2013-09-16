@@ -104,7 +104,17 @@ a {
 }
 /* line 23, ../sass/partials/base/_typography.scss */
 a:hover {
-  background-color: #ffff66;
+  background-color: #ffff80;
+}
+/* line 26, ../sass/partials/base/_typography.scss */
+a:active {
+  position: relative;
+  color: #404040;
+  top: 1px;
+}
+/* line 31, ../sass/partials/base/_typography.scss */
+a:visited {
+  color: #404040;
 }
 
 /* line 6, ../sass/partials/_layout.scss */
