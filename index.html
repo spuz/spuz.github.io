@@ -1,20 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+---
+layout: default
+title: Your New Jekyll Site
+---
 
-  <title>My personal Github Page</title>
-
-  <link rel="stylesheet" href="">
-
-  <link rel="shortcut icon" href="icon.png">
-  <link rel="apple-touch-icon-precomposed" href="icon.png">
-  <meta name="apple-mobile-web-app-title" content="">
-  <link type="text/plain" rel="author" href="humans.txt">
-
-</head>
-<body>
-  <h1>Hello World, it’s me!</h1>
-</body>
-</html>
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
