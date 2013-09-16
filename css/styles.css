@@ -1,0 +1,23 @@
+@import "http://fonts.googleapis.com/css?family=Merriweather";
+/* line 2, ../sass/partials/base/_typography.scss */
+body {
+  font-family: "Merriweather", serif;
+  color: #404040;
+}
+
+/* line 5, ../sass/partials/_layout.scss */
+body {
+  *zoom: 1;
+  max-width: 34em;
+  _width: 34em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 38, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+body:after {
+  content: "";
+  display: table;
+  clear: both;
+}
