@@ -1,5 +1,26 @@
+@include establish-baseline;
 
-body {
+html {
   font-family: $serif;
   color: $text;
+}
+
+h1 {
+  font-weight: 700;
+  @include adjust-font-size-to(16px);
+  @include trailer(1);
+}
+
+p {
+  @include adjust-font-size-to(14px);
+  @include trailer(0.5,14px);
+}
+
+a {
+  padding: 0.125em 0.25em;
+  background-color: $highlight;
+  text-decoration: none;
+  &:hover {
+    background-color: lighten($highlight, 20%);
+  }
 }

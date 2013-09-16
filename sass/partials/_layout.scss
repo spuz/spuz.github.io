@@ -2,6 +2,29 @@
 @import "layout/content";
 @import "layout/footer";
 
+
+html {
+  height: 100%;
+}
+
 body {
-  @include container;
+  @include background(image-url("spot.png"));
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  @include image-2x("spot@2x.png", 186px, 250px);
+}
+
+.wrapper {
+  @include container($total-columns, $break);
+  @include leader(1);
+}
+
+@include at-breakpoint($break) {
+  body {
+    font-size: 150%;
+  }
+  .wrapper {
+    @include leader(3);
+    @include pad(2,2);
+  }
 }
