@@ -12,12 +12,14 @@ h1 {
 }
 
 p {
+  font-weight: 400;  
   @include adjust-font-size-to(14px);
   @include trailer(0.5,14px);
 }
 
 a {
   padding: 0.125em 0.25em;
+  color: $text;
   background-color: $highlight;
   text-decoration: none;
   &:hover {
