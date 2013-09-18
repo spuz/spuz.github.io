@@ -22,9 +22,9 @@ html {
 @include at-breakpoint($break) {
   body {
     font-size: 150%;
-    @include background(image-url("spot.png"));
+    @include background(image-url("nyc.jpg"));
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: right top;
   }
   .wrapper {
     @include leader(3);
