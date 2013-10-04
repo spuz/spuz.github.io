@@ -1,0 +1,12 @@
+body {
+  @include opacity(0);
+
+}
+
+
+.wf-active {
+  body {
+    opacity: 1;
+    @include transition(opacity 1.25s 0 ease);
+  } 
+}
