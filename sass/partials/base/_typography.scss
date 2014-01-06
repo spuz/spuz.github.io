@@ -19,12 +19,13 @@ p {
 }
 
 a {
-  padding: 0.125em 0.25em;
-  color: $text;
-  background-color: $highlight;
+  padding: 0.125em 0.25em 0;
+  color: white;
+  background-color: lighten($highlight, 25%);
   text-decoration: none;
+  @include border-radius(2px);
   &:hover {
-    background-color: lighten($highlight, 25%);
+    background-color: $highlight;
   }
   &:active {
     position: relative;
@@ -32,6 +33,6 @@ a {
     top: 1px;
   }
   &:visited {
-    color: $text;
+    color: white;
   }
 }

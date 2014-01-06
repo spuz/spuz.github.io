@@ -1,4 +1,4 @@
-$debug-grid: true !default;
+$debug-grid: false !default;
 
 @mixin grid-background {
   @if $debug-grid == true {
