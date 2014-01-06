@@ -1,7 +1,17 @@
+$debug-grid: true !default;
+
+@mixin grid-background {
+  @if $debug-grid == true {
+    @include susy-grid-background;
+  }
+}
+
 $total-columns: 6;
-$column-width: 4em;
+$column-width: 3.75em;
 $gutter-width: 1em;
 $grid-padding: $gutter-width;
 
 
-$break: 12;
+$break: 8;
+
+

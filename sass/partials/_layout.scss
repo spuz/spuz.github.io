@@ -10,6 +10,7 @@ html {
 .wrapper {
   @include container($total-columns, $break);
   @include leader(1);
+  @include grid-background;
 }
 
 @include at-breakpoint($break) {
@@ -24,6 +25,7 @@ html {
     @include pad(2,2);
     @include background(image-url("nyc.jpg"));
     background-repeat: no-repeat;
-    background-position: right top;    
+    background-position: right top;
+    @include grid-background;
   }
 }
