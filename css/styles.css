@@ -1,1 +1,171 @@
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font:inherit;font-size:100%;vertical-align:baseline}html{line-height:1}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,th,td{text-align:left;font-weight:normal;vertical-align:middle}q,blockquote{quotes:none}q:before,q:after,blockquote:before,blockquote:after{content:"";content:none}a img{border:none}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{display:block}body{filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);opacity:0}.wf-active body{opacity:1;-webkit-transition-property:opacity;-moz-transition-property:opacity;-o-transition-property:opacity;transition-property:opacity;-webkit-transition-duration:1.25s;-moz-transition-duration:1.25s;-o-transition-duration:1.25s;transition-duration:1.25s;-webkit-transition-timing-function:ease-in;-moz-transition-timing-function:ease-in;-o-transition-timing-function:ease-in;transition-timing-function:ease-in}* html{font-size:100%}html{font-size:16px;line-height:1.5em}html{font-family:"Merriweather",serif;color:#4c4c4c;-webkit-text-size-adjust:100%}h1{font-weight:700;font-size:1em;line-height:1.5em;margin-bottom:1.5em}p{font-weight:400;font-size:0.875em;line-height:1.71429em;margin-bottom:0.85714em}a{padding:0.125em 0.25em 0;color:white;background-color:#3db1ff;text-decoration:none;-webkit-border-radius:2px;-moz-border-radius:2px;-ms-border-radius:2px;-o-border-radius:2px;border-radius:2px}a:hover{background-color:#0071bc}a:active{position:relative;color:#4c4c4c;top:1px}a:visited{color:white}html{height:100%}.wrapper{*zoom:1;max-width:27.5em;_width:27.5em;padding-left:1em;padding-right:1em;margin-left:auto;margin-right:auto;margin-top:1.5em}.wrapper:after{content:"";display:table;clear:both}@media (min-width: 37em){.wrapper{max-width:37em}}@media (min-width: 37em){body{font-size:150%;background-repeat:no-repeat;background-position:right top}.wrapper{margin-top:0em;padding-top:4.5em;padding-left:25.67568%;padding-right:25.67568%;background:url('/images/nyc.jpg?1380928518');background-repeat:no-repeat;background-position:right top}}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+body {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+
+.wf-active body {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 1.25s;
+  -moz-transition-duration: 1.25s;
+  -o-transition-duration: 1.25s;
+  transition-duration: 1.25s;
+  -webkit-transition-timing-function: ease-in;
+  -moz-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+
+* html {
+  font-size: 100%;
+}
+
+html {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+html {
+  font-family: "Merriweather", serif;
+  color: #4c4c4c;
+  -webkit-text-size-adjust: 100%;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+p {
+  font-weight: 400;
+  font-size: 0.875em;
+  line-height: 1.71429em;
+  margin-bottom: 0.85714em;
+}
+
+a {
+  padding: 0.125em 0.25em 0;
+  color: white;
+  background-color: #3db1ff;
+  text-decoration: none;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+a:hover {
+  background-color: #0071bc;
+}
+a:active {
+  position: relative;
+  color: #4c4c4c;
+  top: 1px;
+}
+a:visited {
+  color: white;
+}
+
+html {
+  height: 100%;
+}
+
+.wrapper {
+  *zoom: 1;
+  max-width: 27.5em;
+  _width: 27.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5em;
+}
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (min-width: 37em) {
+  .wrapper {
+    max-width: 37em;
+  }
+}
+
+@media (min-width: 37em) {
+  body {
+    font-size: 150%;
+    background-repeat: no-repeat;
+    background-position: right top;
+  }
+
+  .wrapper {
+    margin-top: 0em;
+    padding-top: 4.5em;
+    padding-left: 25.67568%;
+    padding-right: 25.67568%;
+    background: url('/images/nyc.jpg?1415998445');
+    background-repeat: no-repeat;
+    background-position: right top;
+  }
+}

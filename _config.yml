@@ -1,3 +1,6 @@
 name: Bernhard Benke – Web Developer
 markdown: redcarpet
-pygments: true
+highlighter: pygments
+
+#ignore files
+exclude: [Gemfile, Gemfile.lock, README.md, config.rb]
