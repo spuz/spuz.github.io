@@ -1,0 +1,37 @@
+.wrapper {
+  opacity: 0;
+}
+
+.wf-active {
+  .wrapper {
+    opacity: 1;
+    @include transition(opacity 1.0s ease-in 0s);
+  }
+}
+.wrapper {
+  @include container();
+  margin: 0 gutter();
+
+  @include breakpoint($mama-bear) {
+    @include container(40em 8);
+  }
+
+//   @include breakpoint($papa-bear) {
+//     @include container(12);
+//   }
+}
+
+header {
+  margin-bottom: $vertical-unit;
+}
+
+section {
+  margin-bottom: $vertical-unit;
+  &:after {
+    content:"\2767";
+    text-align: center;
+    font-size: 2em;
+    display: block;
+    color: $light-color;
+  }
+}

@@ -4,3 +4,11 @@ highlighter: pygments
 
 #ignore files
 exclude: [Gemfile, Gemfile.lock, README.md, config.rb]
+
+sass:
+  style: :expanded
+
+gems:
+ - susy
+ - breakpoint
+ - bourbon
