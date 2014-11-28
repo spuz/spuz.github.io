@@ -473,7 +473,7 @@ h2 {
 }
 /* line 21, ../_sass/_typography.scss */
 h2 span {
-  border-bottom: 4px solid #E7340E;
+  border-bottom: 4px solid green;
 }
 
 /* line 26, ../_sass/_typography.scss */
@@ -501,11 +501,11 @@ ul ul li:last-child {
 
 /* line 46, ../_sass/_typography.scss */
 a {
-  color: #E7340E;
+  color: green;
 }
 /* line 48, ../_sass/_typography.scss */
 a:hover {
-  color: #f7937d;
+  color: lime;
   -webkit-transition-property: color;
   -moz-transition-property: color;
   transition-property: color;
