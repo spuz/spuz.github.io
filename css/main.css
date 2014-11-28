@@ -449,7 +449,7 @@ th {
 /* line 1, ../_sass/_typography.scss */
 html {
   font-family: "Open Sans", Arial, sans-serif;
-  color: #434343;
+  color: green;
   background-color: #F6F5F0;
 }
 
@@ -478,29 +478,32 @@ h2 span {
 
 /* line 26, ../_sass/_typography.scss */
 p {
-  margin-top: 0;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 0em;
+  margin-bottom: 1.5em;
 }
 
-/* line 32, ../_sass/_typography.scss */
+/* line 34, ../_sass/_typography.scss */
 ul {
   padding-left: 0;
   list-style: none;
 }
-/* line 35, ../_sass/_typography.scss */
+/* line 37, ../_sass/_typography.scss */
 ul ul {
   padding-left: 2em;
   list-style: square;
 }
-/* line 38, ../_sass/_typography.scss */
+/* line 40, ../_sass/_typography.scss */
 ul ul li:last-child {
   margin-bottom: 3em;
 }
 
-/* line 44, ../_sass/_typography.scss */
+/* line 46, ../_sass/_typography.scss */
 a {
   color: #E7340E;
 }
-/* line 46, ../_sass/_typography.scss */
+/* line 48, ../_sass/_typography.scss */
 a:hover {
   color: #f7937d;
   -webkit-transition-property: color;

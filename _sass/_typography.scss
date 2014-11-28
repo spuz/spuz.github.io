@@ -24,7 +24,9 @@ h2 {
 }
 
 p {
-  margin-top: 0;
+  @include adjust-font-size-to(16px);
+  @include leader(0);
+  @include trailer(1);
 }
 
 
