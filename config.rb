@@ -1,13 +1,15 @@
-require 'compass/import-once/activate'
+require "compass/import-once/activate"
 # Require any additional compass plugins here.
-require 'breakpoint'
-require 'bourbon'
+require "breakpoint"
+require "bourbon"
+require "susy"
+require "compass-normalize"
 # Set this to the root of your project when deployed:
-http_path = "/"
-css_dir = "css"
-sass_dir = "_sass"
-images_dir = "images"
-javascripts_dir = "js"
+http_path       = "/"
+sass_dir        = "_sass"
+css_dir         = "_site/css"
+images_dir      = "_site/images"
+javascripts_dir = "_site/js"
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed

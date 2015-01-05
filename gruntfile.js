@@ -73,7 +73,7 @@ module.exports = function(grunt) {
 
     concurrent: { // https://github.com/sindresorhus/grunt-concurrent
       target: {
-        tasks: ['compass:prod', 'watch'],
+        tasks: ['compass:dev', 'watch'],
           options: {
             logConcurrentOutput: true
           }

@@ -3,7 +3,7 @@ markdown: redcarpet
 highlighter: pygments
 
 #ignore files
-exclude: [Gemfile, Gemfile.lock, README.md, config.rb]
+exclude: [Gemfile, Gemfile.lock, README.md, config.rb, node_modules, package.json, gruntfile.js]
 
 sass:
-  style: :expanded
+  sass_dir: 

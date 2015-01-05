@@ -6,13 +6,14 @@ html {
 
 h1 {
   font-family: $serif;
-}
-
-h1,
-h2,
-h3 {
-  text-align: center;
-  font-weight: normal;
+  text-align: left;
+  @include adjust-font-size-to(18px);
+  @include leader(1);
+  @include trailer(1);
+  @include breakpoint($mama-bear) {
+    @include adjust-font-size-to(24px);
+      @include trailer(0);
+  }
 }
 
 h2 {

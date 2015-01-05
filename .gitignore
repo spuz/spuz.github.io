@@ -2,3 +2,4 @@ _drafts/
 _site/
 .DS_Store
 .sass-cache
+node_modules/*

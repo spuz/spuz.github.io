@@ -22,8 +22,8 @@ $mama-bear: 40em;
 /* Typography
 --------------------*/
 
-$serif:             "Cardo", serif;
-$sans-serif:        "Open Sans", Arial, sans-serif;
+$serif:             Merriweather, serif;
+$sans-serif:        Roboto, Arial, sans-serif;
 
 $base-font-size:    16px;
 $base-line-height:  24px;
@@ -32,10 +32,10 @@ $base-line-height:  24px;
 /* Colors
 --------------------*/
 
-$text-color: green;
+$text-color: #333;
 $light-color: #666;
-$accent-color: green;
-$bg-color: #F6F5F0;
+$accent-color: #4178BE;
+$bg-color: #FDFDFD;
 
 
 /* Rythm

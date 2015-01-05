@@ -21,9 +21,15 @@
 //   }
 }
 
-header {
-  margin-bottom: $vertical-unit;
+.content {
+  @include breakpoint($mama-bear) {
+    @include span(7 of 8);
+  }
 }
+
+// header {
+//   margin-bottom: $vertical-unit;
+// }
 
 section {
   margin-bottom: $vertical-unit;
